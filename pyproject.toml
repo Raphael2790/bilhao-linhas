@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "bilhao-linhas"
+version = "0.1.0"
+description = ""
+authors = ["Rapha2790 <rssshev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+blue = "^0.9.1"
+pandas = "^2.2.3"
+tqdm = "^4.67.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
